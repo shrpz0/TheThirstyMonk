@@ -8,7 +8,7 @@ import { ChevronDown } from 'lucide-react'
 function Hero({ isMobile }) {
   const { t } = useTranslation()
   return (
-    <section id="hero" className="relative h-100vh select-none">
+    <section id="hero" className={`relative ${isMobile ? 'h-[calc(var(--vh)*100)]' : 'h-screen'} select-none`}>
         <Navbar isMobile={isMobile}/>
         <div
             className="absolute inset-0 bg-cover bg-center bg-black opacity-35 blur-xs"
