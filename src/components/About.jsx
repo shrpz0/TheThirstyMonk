@@ -5,8 +5,8 @@ import { motion } from 'motion/react'
 function About() {
     const { t } = useTranslation()
     return (
-      <section id='about' className='md:min-h-110vh grid grid-cols-1 grid-rows-1 lg:grid-cols-2 gap-8 md:gap-14 bg-[#241d1a] px-8 xs:px-12 md:px-[15%] py-24 md:py-[13vh] select-none'>
-          <div className='rounded-2xl md:rounded:3xl overflow-hidden  shadow-[0_0_40px_8px_rgba(232,156,48,0.25)] max-h-[400px]'>
+      <section id='about' className='md:min-h-[110vh] grid grid-cols-1 grid-rows-1 lg:grid-cols-2 gap-8 md:gap-14 xl:gap-21 bg-[#241d1a] px-8 xs:px-12 md:px-[15%] py-24 md:py-[13vh] select-none'>
+          <div className='rounded-2xl md:rounded:3xl overflow-hidden  shadow-[0_0_40px_8px_rgba(232,156,48,0.25)] max-h-[400px] md:max-h-[85vh]'>
               <img src="assets/outside-view.png" className='w-full h-full object-cover object-right' />
           </div>
   
@@ -21,9 +21,9 @@ function About() {
                   <h2 className='text-[#e89c30] text-4xl md:text-5xl'>{t("navAbout")} <span className='text-[#f0ece5]'>{t("aboutUs")}</span></h2>
                   <div className='w-24 bg-[#e89c30] h-[3px]'></div>
               </div>)}
-              <p className='text-[#a89c8a] text-md'>{t("aboutParagraph")}</p>
+              <p className='text-[#a89c8a] text-md xl:text-lg'>{t("aboutParagraph")}</p>
               <p className='text-[#a89c8a] text-md'>{t("aboutParagraph2")}</p>
-              <div className='flex flex-col gap-5 xl:gap-8'>
+              <div className='flex flex-col gap-5 xl:gap-10 xl:mt-6'>
                   <div className='flex flex-row gap-2 items-center hover:translate-x-2 transition-all duration-300 group'>
                       <div className="w-16  aspect-square rounded-2xl bg-[#38291d] grid place-items-center overflow-hidden shadow-lg text-[#e89c30] group-hover:text-[#38291d] group-hover:bg-[#e89c30] transition-all duration-300">
                           <Martini size={40} />
