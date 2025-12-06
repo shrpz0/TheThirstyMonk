@@ -11,7 +11,7 @@ function Contact() {
       whileInView={{opacity:1, y:0}}
       transition={{duration:1.8, ease:"easeOut"}}
       viewport={{ once:true }}
-      className='w-screen gap-8 flex flex-col justify-center items-center px-10 py-24 md:px-[15%] md:py-[calc(11*var(--vh))] bg-[#241d1a]'>
+      className='w-screen gap-8 flex flex-col justify-center items-center px-10 py-24 md:px-[15%] md:py-[11vh] md:min-h-screen bg-[#241d1a]'>
           <div className='flex flex-col justify-center items-center w-full select-none'>
               <h2 className='w-full text-4xl md:text-5xl text-[#e89c30] text-center mb-4 font-bold'>{t("contact")} <br /> <span className='text-[#f0ece5]'>{t("us")}</span></h2>
               <div className={`h-[3px] rounded-sm bg-[#e89c30] mb-10 ${t("contact") === "Contactez" ? "w-24" : "w-16"}`}></div>

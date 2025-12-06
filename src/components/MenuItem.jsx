@@ -1,5 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+
 function MenuItem({ menuItem, category }) {
     const { t } = useTranslation()
     if (category === "Whiskies" || category ==="Snacks") return (

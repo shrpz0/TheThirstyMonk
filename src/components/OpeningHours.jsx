@@ -8,7 +8,7 @@ function OpeningHours() {
   const { t } = useTranslation()
 
   return (
-    <section id='opening-hours' className='bg-[linear-gradient(180deg,hsl(20_14%_8%)_0%,hsl(20_18%_12%)_100%)] md:py-[calc(11*var(--vh))] px-8 m:px-12 py-24 md:px-[28%] select-none'>
+    <section id='opening-hours' className='bg-[linear-gradient(180deg,hsl(20_14%_8%)_0%,hsl(20_18%_12%)_100%)] md:py-[11vh] px-8 m:px-12 py-24 md:px-[28%] select-none'>
       <div className='flex flex-col justify-center items-center gap-8 md:gap-12'>
 
         <motion.div
