@@ -46,6 +46,8 @@ const resources = {
       walkTime: "2 Minutes on foot",
       stayCo: "Stay connected for our special events",
       quickLinks: "Quick Links",
+      seeMore: "See more",
+      hide: "Hide",
       ...enDrinks
     }
   },
@@ -84,6 +86,8 @@ const resources = {
       findUsMetroLines: "(Lignes A and B)",
       stayCo: "Restez connectés pour nos événements spéciaux",
       quickLinks: "Liens Rapides",
+      seeMore: "Voir plus",
+      hide: "Cacher",
       ...frDrinks,
     }
   }

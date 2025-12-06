@@ -118,7 +118,7 @@ function Menu() {
                       (snacks.slice(0, 4).map(snack => <MenuItem menuItem={snack} category={category} key={snack.id}/>)))}
   
           </div>
-          <button onClick={handleToggleExpand} className='bg-[#1d1715] text-[#a89c8a] rounded-lg w-full py-4 font-[Inter] border border-[rgba(255,200,100,0.2)] hover:bg-[#e89c30] hover:text-[#181312] transition-all duration-200 font-semibold cursor-pointer'>{expand ? "Hide" : "See More"}</button>
+          <button onClick={handleToggleExpand} className='bg-[#1d1715] text-[#a89c8a] rounded-lg w-full py-4 font-[Inter] border border-[rgba(255,200,100,0.2)] hover:bg-[#e89c30] hover:text-[#181312] transition-all duration-200 font-semibold cursor-pointer'>{expand ? t("hide") : t("seeMore")}</button>
       </section>
     )
   }
