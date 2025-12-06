@@ -7,7 +7,7 @@ function Follow() {
   const { t } = useTranslation()
   return (
     <motion.section initial={{opacity: 0, y:20}} whileInView={{opacity: 1, y:0}} viewport={{ once:true }} transition={{ duration: 1.8, ease: "easeOut"}}
-        className='w-screen flex flex-col justify-center items-center px-10 py-28 md:px-[20%] md:py-[16vh] bg-[#241d1a]'>
+        className='w-screen flex flex-col justify-center items-center px-10 py-20 md:px-[20%] md:py-[16vh] bg-[#241d1a]'>
         <div className='flex flex-col justify-center items-center w-full select-none'>
             <h2 className='w-full text-4xl md:text-5xl text-[#e89c30] text-center mb-4 font-bold'>{t("follow")} <br /> <span className='text-[#f0ece5]'>{t("us")}</span></h2>
             <div className={`h-[3px] rounded-sm bg-[#e89c30] mb-6 ${t("soicals") === "Suivez" ? "w-20" : "w-12"}`}></div>

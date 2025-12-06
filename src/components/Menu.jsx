@@ -24,7 +24,7 @@ function Menu() {
     })}
   }
   return (
-    <section id='menu' className='bg-[#181312] py-18 px-12 md:py-[12vh] min-h-110vh md:px-[16%] flex flex-col items-center select-none' ref={menuRef}>
+    <section id='menu' className='bg-[#181312] py-18 px-12 md:py-[12vh] md:min-h-110vh md:px-[16%] flex flex-col items-center select-none' ref={menuRef}>
         <div className='flex flex-col justify-center items-center'>
          <h2 className='text-4xl md:text-5xl text-[#e89c30] text-center mb-4 font-bold'>{t("our")} <br /> <span className='text-[#f0ece5]'>{t("menu")}</span></h2>
          <div className='h-[3px] rounded-sm bg-[#e89c30] w-20 mb-10'></div>

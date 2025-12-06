@@ -7,13 +7,13 @@ function Find() {
   return (
     <motion.section initial={{opacity: 0, y:20}} whileInView={{opacity: 1, y:0}} viewport={{ once:true }} 
     transition={{ duration: 1.8, ease: "easeOut"}}
-    className='w-screen min-h-110vh gap-8 flex flex-col justify-center items-center px-10 py-24 md:px-[15%] md:py-[8vh] bg-[#181312]'>
+    className='w-screen md:min-h-110vh gap-8 flex flex-col justify-center items-center px-10 py-20 md:px-[15%] md:py-[8vh] bg-[#181312]'>
         <div className='flex flex-col gap-12 w-full'>
             <div className='flex flex-col items-center'>
                 <div className='bg-[#38291d] p-4 md:p-5 rounded-full w-fit mb-4'>
                     <Navigation2 className='text-[#e89c30] w-8 h-8 md:w-10 md:h-10'/>
                 </div>
-                <h2 className='select-none text-3xl xs:text-4xl md:text-5xl text-[#e89c30] text-center mb-4 font-bold'>{t("find")} {t("find") === "Trouver" ? <br /> : null} {t("find") === "Trouver" ? <span className='text-[#f0ece5]'>{t("us")}</span> : t("us")}</h2>
+                <h2 className='select-none text-3xl xs:text-4xl md:text-5xl text-[#e89c30] text-center mb-4 font-bold'>{t("find")} {t("find") === "Trouvez" ? <br /> : null} {t("find") === "Trouver" ? <span className='text-[#f0ece5]'>{t("us")}</span> : t("us")}</h2>
                 <div className={"h-[3px] rounded-sm bg-[#e89c30] w-24"}></div>
             </div>
             <div className='flex flex-col gap-4 items-center'>

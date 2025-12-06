@@ -78,7 +78,7 @@ const resources = {
       navHours: "Horaires",
       phone: "Téléphone",
       adress: "Adresse",
-      find: "Trouver",
+      find: "Trouvez",
       walkTime: "2 Minutes à pied",
       metro: "Métro:",
       findUsMetroLines: "(Lignes A and B)",
