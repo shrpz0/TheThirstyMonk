@@ -13,6 +13,12 @@
   --breakpoint-m: 420px;
 }
 
+@media (max-width: 768px) {
+  body, main, section {
+    overflow-anchor: none;
+  }
+}
+
 :root {
   --vh100: calc(var(--vvh, calc(var(--vh, 1vh) * 100)));
 }
@@ -27,6 +33,8 @@
 .max-h-50vh { max-height: calc(var(--vh100) * 0.5); }
 
 .h-100vh { height: calc(var(--vh100)); }
+
+.vh-085 { max-height: calc(var(--vh100) * 0.85); }
 
 
 
