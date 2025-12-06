@@ -73,8 +73,8 @@ function Navbar({ isMobile }) {
   }
 
   return (
-    <nav className='fixed top-0 left-0 flex flex-row justify-center py-4 px-6 xl:px-20 w-screen bg-[#a89c8a1c] backdrop-blur-sm z-50 border border-[#ffffff21] select-none'>
-      <div className='max-w-[1380px] w-full flex flex-row justify-between items-center'>
+    <nav className='fixed top-0 left-0 flex flex-row justify-center py-4 px-6 md:px-12 w-screen bg-[#a89c8a1c] backdrop-blur-sm z-50 border border-[#ffffff21] select-none'>
+      <div className='w-full flex flex-row justify-between items-center'>
        
         <div className='flex items-center gap-3'>
           <div className='p-2 rounded-full bg-[#121212]' onClick={() => setLang()}>
