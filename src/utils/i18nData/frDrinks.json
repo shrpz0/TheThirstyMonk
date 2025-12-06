@@ -1,0 +1,146 @@
+{
+  "shots": {
+    "b52": {
+      "description": "Kahlúa, Baileys, Cointreau"
+    },
+    "madDog": {
+      "description": "Vodka, sirop de framboise, un trait de Tabasco"
+    },
+    "springbok": {
+      "description": "Amarula, liqueur de menthe"
+    },
+    "cranberryCookie": {
+      "description": "Disaronno, jus de cranberry, citron vert frais"
+    },
+    "irishFlag": {
+      "description": "Cointreau, Baileys, Get 27"
+    },
+    "babyGuinness": {
+      "description": "Kahlúa, Baileys"
+    }
+  },
+
+  "snacks": {
+    "nachosCheese": {
+      "description": "Nachos croustillants et fromage fondu"
+    },
+    "chickenWings": {
+      "description": "Ailes de poulet épicées ou sauce BBQ"
+    },
+    "mozzarellaSticks": {
+      "description": "Bâtonnets de mozzarella panés et frits"
+    },
+    "onionRings": {
+      "description": "Rondelles d’oignon dorées et panées"
+    },
+    "garlicBread": {
+      "description": "Baguette toastée à l’ail"
+    },
+    "cheeseCharcuterie": {
+      "description": "Assortiment de fromages et charcuterie"
+    },
+    "fries": {
+      "description": "Frites classiques salées"
+    },
+    "loadedFries": {
+      "description": "Frites fromage, bacon et sauce"
+    }
+  },
+
+  "spiritsList": {
+    "havana3": {
+      "description": "Rhum blanc cubain"
+    },
+    "havanaEspecial": {
+      "description": "Rhum doré cubain"
+    },
+    "sailorJerry": {
+      "description": "Rhum épicé américain"
+    },
+    "diplomatico": {
+      "description": "Rhum premium vénézuélien"
+    },
+    "kraken": {
+      "description": "Rhum épicé noir des Caraïbes"
+    },
+    "absolut": {
+      "description": "Vodka de blé suédoise"
+    },
+    "zubrowka": {
+      "description": "Vodka pure polonaise"
+    }
+  },
+
+  "whiskies": {
+    "paddy": { "description": "Blend irlandais léger et doux." },
+    "connemara": { "description": "Single malt irlandais fumé." },
+    "teeling": { "description": "Blend irlandais fini en fût de rhum, très doux." },
+    "tullamore": { "description": "Triple distillation, mature et équilibré." },
+    "sexton": { "description": "Single malt accessible et net." },
+    "greenSpot": { "description": "Pot still classique, épicé et crémeux." },
+    "bulleit": { "description": "Bourbon américain haut en seigle, puissant." },
+    "jackDaniels": { "description": "Tennessee whiskey filtré au charbon." },
+    "fuji": { "description": "Single malt japonais propre et raffiné." },
+    "nikka": { "description": "Blend japonais fort et riche." },
+    "powers": { "description": "Caractère irlandais épicé classique." },
+    "jameson": { "description": "Whisky irlandais audacieux, plus fort." },
+    "westCork": { "description": "Single malt irlandais net et malté." },
+    "bushmills": { "description": "Triple distillation, facile à boire." },
+    "blackBush": { "description": "Blend irlandais plus riche, influencé sherry." },
+    "crestedTen": { "description": "Blend irlandais rond et généreux." },
+    "makersMark": { "description": "Profil plus doux grâce au blé." },
+    "jackHoney": { "description": "Jack Daniel’s twist miel, doux et sucré." },
+    "cragganmore": { "description": "Style Speyside doux et complexe." },
+    "knockando": { "description": "Speyside léger et classique." },
+    "glenlivet": { "description": "Profil Speyside lisse et iconique." },
+    "aberlour": { "description": "Speyside plus riche, influencé sherry." },
+    "glenmorangie": { "description": "Caractère Highland doux et floral." },
+    "laphroaig": { "description": "Tourbe lourde, fumée médicinale." },
+    "glenkinchie": { "description": "Style Lowland léger et délicat." },
+    "oban": { "description": "Highland côtier et équilibré." },
+    "glenfiddich": { "description": "Fraîcheur signature de Speyside." },
+    "caolIla": { "description": "Fumée nette et notes côtières." },
+    "lagavulin": { "description": "Fumée profonde et intense d’Islay." },
+    "talisker": { "description": "Style insulaire poivré et maritime." }
+  },
+  
+  "gins": {
+    "hendricks": {
+      "description": "Gin au concombre et à la rose"
+    },
+    "monkey47": {
+      "description": "Gin de la Forêt-Noire allemande"
+    },
+    "tanqueray": {
+      "description": "London Dry Gin classique"
+    },
+    "bombaySapphire": {
+      "description": "London Dry infusé à la vapeur"
+    },
+    "malfy": {
+      "description": "Gin italien aux agrumes"
+    },
+    "christianDrouin": {
+      "description": "Gin français vieilli en fûts de Calvados"
+    },
+    "lePointG": {
+      "description": "Gin artisanal français"
+    },
+    "stAmans": {
+      "description": "Gin premium français, doux et fruité"
+    },
+    "grandsDomaines": {
+      "description": "Gin français vieilli en fût de chêne"
+    },
+    "bombayBramble": {
+      "description": "Gin à la mûre et à la framboise"
+    },
+    "gunpowder": {
+      "description": "Gin irlandais aux agrumes de Sardaigne"
+    },
+    "lAcrobate": {
+      "description": "Gin français moderne"
+    }
+  }
+
+}

@@ -1,0 +1,100 @@
+@import "tailwindcss";
+@import "flag-icons/css/flag-icons.min.css";
+
+@theme {
+  --breakpoint-xs: 340px;
+}
+
+@theme {
+  --breakpoint-s: 370px;
+}
+
+@theme {
+  --breakpoint-m: 420px;
+}
+
+@keyframes Fade {
+  from {
+    opacity: 0.35;
+  }
+  to {
+    opacity: 1;  
+  }
+}
+
+@keyframes Fade {
+  from {
+    opacity: 0.35;
+  }
+  to {
+    opacity: 1;  
+  }
+}
+
+@keyframes RightFade {
+  from {
+    opacity: 0.35;
+    translate: y;
+  }
+  to {
+    opacity: 1;  
+  }
+}
+
+.menu-card {
+  animation: Fade 1.5s ease-out;
+}
+
+
+
+.flag-circle {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background-size: cover;
+  border: 1px solid #e89c30;
+  background-position: center;
+  display: inline-block;
+}
+
+
+.flag-circle-xs {
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  background-size: cover;
+  border: 1px solid #e89c30;
+  background-position: center;
+  display: inline-block;
+}
+
+
+
+
+h1,h2,h3,h4,h5 {
+  cursor: default
+}
+
+
+body {
+  overflow-x: hidden;
+  background-color: #181312;
+  font-family: "Playfair Display", serif;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#app, .root, main {
+  min-height: 100vh;
+}
+
+p {
+  font-family: Inter;
+  font-weight: 300;
+  color: #a89c8a
+}
+
