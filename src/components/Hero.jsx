@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './navbar'
+import Navbar from './Navbar.jsx'
 import { useTranslation } from 'react-i18next'
 import { scrollToSection } from '../utils/scrollToSection'
 import { motion } from "motion/react"

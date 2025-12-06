@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
-import MenuItem from './MenuItem'
+import MenuItem from './MenuItem.jsx'
 import { whiskies } from '../data/whiskies'
 import { beers } from '../data/beers'
 import { spirits } from '../data/spirits'

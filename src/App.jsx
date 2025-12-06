@@ -1,14 +1,14 @@
 import { useTranslation } from 'react-i18next'
 import useIsMobile from './hooks/useIsMobile'
 import './App.css'
-import Hero from './components/Hero'
-import About from './components/About'
-import OpeningHours from './components/OpeningHours'
-import Menu from './components/Menu'
-import Contact from './components/Contact'
-import Find from './components/Find'
-import Follow from './components/Follow'
-import Footer from './components/Footer'
+import Hero from './components/Hero.jsx'
+import About from './components/About.jsx'
+import OpeningHours from './components/OpeningHours.jsx'
+import Menu from './components/Menu.jsx'
+import Contact from './components/Contact.jsx'
+import Find from './components/Find.jsx'
+import Follow from './components/Follow.jsx'
+import Footer from './components/Footer.jsx'
 
 function App() {
   const { t } = useTranslation()
