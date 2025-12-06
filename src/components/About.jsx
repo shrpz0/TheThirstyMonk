@@ -23,7 +23,7 @@ function About() {
               </div>)}
               <p className='text-[#a89c8a] text-md xl:text-lg'>{t("aboutParagraph")}</p>
               <p className='text-[#a89c8a] text-md'>{t("aboutParagraph2")}</p>
-              <div className='flex flex-col gap-5 xl:gap-10 xl:mt-6'>
+              <div className='flex flex-col gap-5 xl:gap-6 2xl:mt-6'>
                   <div className='flex flex-row gap-2 items-center hover:translate-x-2 transition-all duration-300 group'>
                       <div className="w-16  aspect-square rounded-2xl bg-[#38291d] grid place-items-center overflow-hidden shadow-lg text-[#e89c30] group-hover:text-[#38291d] group-hover:bg-[#e89c30] transition-all duration-300">
                           <Martini size={40} />
