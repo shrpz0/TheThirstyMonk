@@ -3,6 +3,7 @@ import Navbar from './Navbar.jsx'
 import { useTranslation } from 'react-i18next'
 import { scrollToSection } from '../utils/scrollToSection'
 import { motion } from "motion/react"
+import { ChevronDown } from 'lucide-react'
 
 function Hero({ isMobile }) {
   const { t } = useTranslation()
@@ -39,18 +40,17 @@ function Hero({ isMobile }) {
             <motion.div
                     initial={{ opacity: 0}}
                     animate={{ opacity: 1}}
-                    transition={{ duration: 4, ease: "easeOut" }}
+                    transition={{ duration: 3, ease: "easeOut" }}
              className='flex flex-col md:flex-row gap-4 w-full px-4 lg:px-[10%] max-w-[800px]'>
                 <button onClick={() => scrollToSection('menu')} className='flex-1 bg-[#e89c30] text-[#181312] rounded-lg p-2 py-3 font-[Inter] hover:bg-[#d48312] transition-all duration-200 font-semibold cursor-pointer'>{t("heroDiscoverMenu")}</button>
                 <button onClick={() => scrollToSection('find')} className='flex-1 bg-[#181312] text-[#e89c30] rounded-lg p-2 py-3 font-[Inter] border border-[#e89c30] hover:bg-[#e89c30] hover:text-[#181312] transition-all duration-200 font-semibold cursor-pointer'>{t("navFind")}</button>
             </motion.div>
-
-
+        </div>
+        <div className="absolute bottom-2 flex flex-row justify-center w-full">
+            <ChevronDown onClick={() => scrollToSection('about')} size={64} strokeWidth={1.2} className='animate-bounce cursor-pointer text-[#e89c30]'/>
         </div>
 
-        <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2">
-            <img src="assets/arrow-down.svg" onClick={() => scrollToSection('about')} className='w-8 animate-bounce cursor-pointer'/>
-        </div>
+
 
     </section>
 
