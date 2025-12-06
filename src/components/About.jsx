@@ -5,8 +5,8 @@ import { motion } from 'motion/react'
 function About() {
   const { t } = useTranslation()
   return (
-    <section id='about' className='grid grid-cols-1 grid-rows-1 lg:grid-cols-2 gap-8 md:gap-14 bg-[#241d1a] px-8 xs:px-12 md:px-[15%] py-24 md:py-[11vh]  min-h-[122vh] select-none'>
-        <div className='rounded-2xl md:rounded:3xl overflow-hidden  shadow-[0_0_40px_8px_rgba(232,156,48,0.25)] max-h-[85vh]'>
+    <section id='about' className='min-h-110vh grid grid-cols-1 grid-rows-1 lg:grid-cols-2 gap-8 md:gap-14 bg-[#241d1a] px-8 xs:px-12 md:px-[15%] py-24 md:py-[13vh] select-none'>
+        <div className='rounded-2xl md:rounded:3xl overflow-hidden  shadow-[0_0_40px_8px_rgba(232,156,48,0.25)] max-h-85vh'>
             <img src="assets/outside-view.png" className='w-full h-full object-cover object-right' />
         </div>
 

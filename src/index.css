@@ -13,6 +13,25 @@
   --breakpoint-m: 420px;
 }
 
+:root {
+  --vh100: calc(var(--vvh, calc(var(--vh, 1vh) * 100)));
+}
+
+.min-h-100vh { min-height: var(--vh100); }
+.min-h-110vh { min-height: calc(var(--vh100) * 1.1); }
+.min-h-85vh { min-height: calc(var(--vh100) * 0.85); }
+
+.max-h-100vh { max-height: calc(var(--vh100)); }
+.max-h-110vh { max-height: calc(var(--vh100) * 1.2); }
+.max-h-85vh { max-height: calc(var(--vh100) * 0.85); }
+.max-h-50vh { max-height: calc(var(--vh100) * 0.5); }
+
+.h-100vh { height: calc(var(--vh100)); }
+
+
+
+
+
 @keyframes Fade {
   from {
     opacity: 0.35;

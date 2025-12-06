@@ -18,7 +18,7 @@ function Contact() {
         </div>
         <div className='grid grid-cols-1 grid-rows-2 md:grid-cols-2  gap-12 md:grid-rows-1 w-full'>
            
-        <div className='rounded-2xl md:rounded:3xl overflow-hidden shadow-[0_0_40px_8px_rgba(232,156,48,0.25)] max-h-[50vh]'>
+        <div className='rounded-2xl md:rounded:3xl overflow-hidden shadow-[0_0_40px_8px_rgba(232,156,48,0.25)] max-h-50vh'>
                 <img src="assets/party.png" className='w-full h-full object-cover object-center' />
         </div>
            

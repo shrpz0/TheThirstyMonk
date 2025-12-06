@@ -7,7 +7,7 @@ function Find() {
   return (
     <motion.section initial={{opacity: 0, y:20}} whileInView={{opacity: 1, y:0}} viewport={{ once:true }} 
     transition={{ duration: 1.8, ease: "easeOut"}}
-    className='w-screen h-[110vh] gap-8 flex flex-col justify-center items-center px-10 py-24 md:px-[15%] md:py-[8vh] bg-[#181312]'>
+    className='w-screen min-h-110vh gap-8 flex flex-col justify-center items-center px-10 py-24 md:px-[15%] md:py-[8vh] bg-[#181312]'>
         <div className='flex flex-col gap-12 w-full'>
             <div className='flex flex-col items-center'>
                 <div className='bg-[#38291d] p-4 md:p-5 rounded-full w-fit mb-4'>
